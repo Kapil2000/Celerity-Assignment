@@ -1,0 +1,844 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: #f8f9fd;
+}
+
+.chat {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  left: 1309px;
+  top: 840px;
+  background-color: #9747ff;
+  border-radius: 50%;
+}
+
+.chat .img {
+  position: absolute;
+  left: 15.21%;
+  right: 28.12%;
+  top: 16.17%;
+  bottom: 29.17%;
+  height: 50px;
+  width: 50px;
+}
+
+.Frame2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 841px;
+
+  position: absolute;
+  width: 1367.89px;
+  height: 48px;
+  left: 35px;
+  top: 36px;
+}
+
+.Frame2 .Logo {
+  width: 170px;
+  height: 39px;
+
+  font-family: "PP Cirka";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Frame2 .Frame1 {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 28px;
+
+  width: 356.89px;
+  /* height: 48px; */
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left: -80px;
+}
+
+.Frame2 .Frame1 .Login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 12.4444px 19.5556px; */
+  gap: 8.89px;
+
+  width: 150.22px;
+  height: 48px;
+
+  background: #6f57e9;
+  border-radius: 12.4444px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Frame2 .Frame1 .Login .text {
+  width: 43px;
+  height: 20px;
+
+  /* text-decoration: none; */
+
+  /* Title02 Semi bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 120%;
+  /* or 23px */
+  text-decoration: none;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Frame2 .Frame1 .LearnMore {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 12.4444px 19.5556px; */
+  gap: 8.89px;
+
+  width: 178.67px;
+  height: 48px;
+
+  border: 1.77778px solid #6f57e9;
+  border-radius: 12.4444px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.Frame2 .Frame1 .LearnMore .text {
+  /* width: 88px; */
+  height: 20px;
+
+  /* Title02 Semi bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 120%;
+  /* or 23px */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* frame 4 */
+.Frame4 {
+  position: absolute;
+  width: 1016px;
+  height: 84px;
+  left: 212px;
+  top: 215px;
+  /* margin-top: 188px; */
+}
+
+.Frame4 .h {
+  position: absolute;
+  width: 595px;
+  height: 50px;
+  left: 210.5px;
+  top: 0px;
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.Frame4 .p {
+  position: absolute;
+  width: 1016px;
+  height: 26px;
+  left: 0px;
+  top: 58px;
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* search bar */
+.searchBar {
+  position: absolute;
+  width: 1287px;
+  height: 82px;
+  left: 76px;
+  top: 400px;
+
+  background: #ffffff;
+  box-shadow: 296px 536px 245px rgba(21, 31, 72, 0.01),
+    167px 302px 207px rgba(21, 31, 72, 0.05),
+    74px 134px 153px rgba(21, 31, 72, 0.09),
+    19px 34px 84px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+}
+
+.searchBar .Group1 {
+  position: absolute;
+  width: 1264px;
+  height: 52px;
+  left: 7px;
+  top: 15px;
+}
+
+.searchBar .Group1 .icon {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 1227px;
+  top: 10px;
+
+  background: #9747ff;
+  border-radius: 8px;
+}
+
+.searchBar .Group1 .line4 {
+  position: absolute;
+  width: 27px;
+  height: 0px;
+  left: 1200px;
+  top: 27.5px;
+
+  border: 1.2px solid #b9b9b9;
+  transform: rotate(90deg);
+}
+
+.searchBar .Group1 .load {
+  position: absolute;
+  width: 211px;
+  height: 52px;
+  left: 994px;
+  /* top: 15px; */
+
+  border-radius: 14px;
+}
+
+.searchBar .Group1 .line2 {
+  position: absolute;
+  width: 27px;
+  height: 0px;
+  left: 980px;
+  top: 27.5px;
+
+  border: 1.2px solid #b9b9b9;
+  transform: rotate(90deg);
+}
+
+.searchBar .Group1 .date {
+  position: absolute;
+  width: 308px;
+  height: 52px;
+  left: 676px;
+  /* top: 15px; */
+
+  border-radius: 14px;
+}
+
+.searchBar .Group1 .destination {
+  position: absolute;
+  width: 327px;
+  height: 52px;
+  left: 339px;
+  /* top: 15px; */
+
+  border-radius: 14px;
+}
+
+.searchBar .Group1 .line3 {
+  position: absolute;
+  width: 27px;
+  height: 0px;
+  left: 660px;
+  top: 27.5px;
+
+  border: 1.2px solid #b9b9b9;
+  transform: rotate(90deg);
+}
+
+.searchBar .Group1 .Origin {
+  position: absolute;
+  width: 327px;
+  height: 52px;
+  left: 7px;
+  /* top: 15px; */
+
+  border-radius: 14px;
+}
+
+.searchBar .Group1 .Origin p {
+  position: absolute;
+  width: 122px;
+  height: 19px;
+  left: 47px;
+  top: 16.5px;
+
+  /* Title03 Semi bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  color: #868686;
+}
+
+.searchBar .Group1 .Origin .icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 14px;
+  top: 14px;
+}
+
+/* services */
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+
+  position: absolute;
+  width: 1375px;
+  height: 292px;
+  left: 32px;
+  top: 560px;
+}
+
+.services p {
+  width: 128px;
+  height: 40px;
+
+  /* Heading03 Semi bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 120%;
+  /* identical to box height, or 40px */
+
+  text-align: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.services .tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 46px;
+
+  width: 1375px;
+  height: 212px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.services .tabs .box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 28px 30px;
+  gap: 7px;
+
+  width: 256px;
+  height: 130px;
+
+  background: #ffffff;
+  box-shadow: 0px 146px 58px rgba(0, 0, 0, 0.01),
+    0px 82px 49px rgba(0, 0, 0, 0.05), 0px 36px 36px rgba(0, 0, 0, 0.09),
+    0px 9px 20px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.services .tabs .box1 .frame9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+
+  width: 208px;
+  height: 32px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.services .tabs .box1 .frame9 .icon {
+  width: 32px;
+  /* height: 45px; */
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.services .tabs .box1 .frame9 .text {
+  width: 146px;
+  height: 26px;
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 26px */
+
+  text-align: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.services .tabs .box1 .line1 {
+  width: 252px;
+  height: 0px;
+
+  border: 0.7px solid #9e9e9e;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.services .tabs .box1 .text {
+  width: 283px;
+  height: 84px;
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+
+  color: #535353;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.services .tabs .box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 28px 24px;
+  gap: 20px;
+
+  width: 256px;
+  height: 130px;
+
+  background: #ffffff;
+  box-shadow: 0px 146px 58px rgba(0, 0, 0, 0.01),
+    0px 82px 49px rgba(0, 0, 0, 0.05), 0px 36px 36px rgba(0, 0, 0, 0.09),
+    0px 9px 20px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.services .tabs .box2 .frame9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+
+  width: 218px;
+  height: 28px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.services .tabs .box2 .frame9 .icon {
+  width: 28px;
+  height: 28px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.services .tabs .box2 .frame9 .text {
+  width: 160px;
+  height: 26px;
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 26px */
+
+  text-align: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.services .tabs .box2 .line1 {
+  width: 252px;
+  height: 0px;
+
+  border: 0.7px solid #9e9e9e;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.services .tabs .box2 .text {
+  width: 283px;
+  height: 84px;
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+
+  color: #535353;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.services .tabs .box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 28px 24px;
+  gap: 20px;
+
+  width: 256px;
+  height: 130px;
+
+  background: #ffffff;
+  box-shadow: 0px 146px 58px rgba(0, 0, 0, 0.01),
+    0px 82px 49px rgba(0, 0, 0, 0.05), 0px 36px 36px rgba(0, 0, 0, 0.09),
+    0px 9px 20px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.services .tabs .box3 .frame9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+
+  width: 238px;
+  height: 26px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.services .tabs .box3 .frame9 .icon {
+  width: 24px;
+  height: 24px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.services .tabs .box3 .frame9 .text {
+  width: 184px;
+  height: 26px;
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 26px */
+
+  text-align: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.services .tabs .box3 .line1 {
+  width: 252px;
+  height: 0px;
+
+  border: 0.7px solid #9e9e9e;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.services .tabs .box3 .text {
+  width: 283px;
+  height: 84px;
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+
+  color: #535353;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.services .tabs .box4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 29px 24px;
+  gap: 20px;
+
+  width: 256px;
+  height: 130px;
+
+  background: #ffffff;
+  box-shadow: 0px 146px 58px rgba(0, 0, 0, 0.01),
+    0px 82px 49px rgba(0, 0, 0, 0.05), 0px 36px 36px rgba(0, 0, 0, 0.09),
+    0px 9px 20px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.services .tabs .box4 .frame9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+
+  width: 175px;
+  height: 26px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.services .tabs .box4 .frame9 .icon {
+  width: 24px;
+  height: 24px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.services .tabs .box4 .frame9 .text {
+  width: 121px;
+  height: 26px;
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 26px */
+
+  text-align: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.services .tabs .box4 .line1 {
+  width: 252px;
+  height: 0px;
+
+  border: 0.7px solid #9e9e9e;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.services .tabs .box4 .text {
+  width: 283px;
+  height: 63px;
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+
+  color: #535353;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.water {
+  /* position: absolute; */
+  width: 1440px;
+  height: 1024px;
+  left: 0px;
+  top: 21px;
+}
