@@ -1,0 +1,1642 @@
+.container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  overflow-y: scroll;
+
+  /* Primary color */
+
+  background: #f8f9fd;
+}
+
+.chat {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  left: 1309px;
+  top: 890px;
+  background-color: #9747ff;
+  border-radius: 50%;
+}
+
+.chat .img {
+  position: absolute;
+  left: 15.21%;
+  right: 28.12%;
+  top: 16.17%;
+  bottom: 29.17%;
+  height: 50px;
+  width: 50px;
+}
+
+.frame11 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 37px 0px;
+  gap: 941px;
+
+  position: absolute;
+  width: 170px;
+  height: 70px;
+  left: 35px;
+  top: 0px;
+
+  background: #f8f9fd;
+}
+
+.frame11 .logo {
+  width: 170px;
+  height: 39px;
+
+  font-family: "PP Cirka";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.update {
+  /* position: absolute; */
+  width: 573px;
+  height: 63px;
+  left: 433px;
+  top: 182px;
+}
+
+.update .line6 {
+  position: absolute;
+  width: 131px;
+  height: 0px;
+  left: 829px;
+  top: 202px;
+
+  border: 2px solid #d3b0ff;
+}
+
+.update .line5 {
+  position: absolute;
+  width: 131px;
+  height: 0px;
+  left: 653px;
+  top: 202px;
+
+  border: 2px solid #d3b0ff;
+}
+
+.update .line4 {
+  position: absolute;
+  width: 131px;
+  height: 0px;
+  left: 477px;
+  top: 202px;
+
+  border: 2px solid #d3b0ff;
+}
+
+.update .frame16 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 48px;
+  height: 63px;
+  left: 958px;
+  top: 182px;
+}
+
+.update .frame16 .frame12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  width: 39px;
+  height: 39px;
+
+  background: #d3b0ff;
+  border-radius: 51px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.update .frame16 .frame12 .text {
+  width: 11px;
+  height: 19px;
+
+  /* Title03 Bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.update .frame16 .text {
+  width: 48px;
+  height: 16px;
+
+  /* Body */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  /* identical to box height, or 16px */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame15 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 43px;
+  height: 63px;
+  left: 785px;
+  top: 182px;
+}
+
+.frame15 .frame12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  width: 39px;
+  height: 39px;
+
+  background: #d3b0ff;
+  border-radius: 51px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame15 .frame12 .text {
+  width: 9px;
+  height: 19px;
+
+  /* Title03 Bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame15 .text {
+  width: 43px;
+  height: 16px;
+
+  /* Body */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  /* identical to box height, or 16px */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame14 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 141px;
+  height: 63px;
+  left: 560px;
+  top: 182px;
+}
+
+.frame14 .frame12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  width: 39px;
+  height: 39px;
+
+  background: #d3b0ff;
+  border-radius: 51px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame14 .frame12 .text {
+  width: 10px;
+  height: 19px;
+
+  /* Title03 Bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame14 .text {
+  width: 141px;
+  height: 16px;
+
+  /* Body */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  /* identical to box height, or 16px */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame13 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 41px;
+  height: 63px;
+  left: 433px;
+  top: 182px;
+}
+
+.frame13 .frame12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  width: 39px;
+  height: 39px;
+
+  background: #d3b0ff;
+  border-radius: 51px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame13 .frame12 .text {
+  width: 7px;
+  height: 19px;
+
+  /* Title03 Bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame13 .text {
+  width: 41px;
+  height: 16px;
+
+  /* Body */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  /* identical to box height, or 16px */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 93px;
+
+  position: absolute;
+  width: 1366px;
+  height: 628.5px;
+  left: 35px;
+  top: 305px;
+}
+
+.frame68 .frame67 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 907px;
+  height: 628.5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame57 {
+  width: 907px;
+  height: 256.5px;
+
+  background: #ffffff;
+  /* Cards shadow */
+
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01),
+    0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09),
+    0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame57 .express {
+  position: absolute;
+  width: 47px;
+  height: 16px;
+  left: 425px;
+  top: 86px;
+
+  /* Body Semi bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 120%;
+  /* identical to box height, or 16px */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.frame68 .frame67 .frame57 .plane {
+  /* position: absolute; */
+  width: 837px;
+  height: 117.5px;
+  left: 35px;
+  top: 109px;
+}
+
+.frame68 .frame67 .frame57 .plane .frame55 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 9px;
+
+  position: absolute;
+  width: 633px;
+  height: 35.87px;
+  left: 131px;
+  top: 109px;
+}
+
+.frame68 .frame67 .frame57 .plane .frame55 .icon {
+  width: 28.52px;
+  height: 23px;
+
+  transform: rotate(8.28deg);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame57 .plane .frame55 .line15 {
+  width: 633px;
+  height: 0px;
+
+  border: 1.5px solid #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame57 .plane .frame56 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 562px;
+
+  position: absolute;
+  width: 837px;
+  height: 95.5px;
+  left: 35px;
+  top: 131px;
+}
+
+.frame68 .frame67 .frame57 .plane .frame56 .frame53 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+
+  width: 126px;
+  height: 95.5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame57 .plane .frame56 .frame53 .icon {
+  width: 35px;
+  height: 24.5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame57 .plane .frame56 .frame53 .text {
+  width: 126px;
+  height: 51px;
+
+  /* Title02 Semi bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 120%;
+  /* or 23px */
+
+  text-align: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame57 .plane .frame56 .frame54 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+
+  width: 149px;
+  height: 95.5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame57 .plane .frame56 .frame54 .icon {
+  width: 35px;
+  height: 24.5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame57 .plane .frame56 .frame54 .text {
+  width: 149px;
+  height: 51px;
+
+  /* Title02 Semi bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 120%;
+  /* or 23px */
+
+  text-align: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame57 .booking {
+  position: absolute;
+  width: 192px;
+  height: 28px;
+  left: 26px;
+  top: 30px;
+
+  /* Title01 Bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 120%;
+  /* identical to box height, or 28px */
+
+  color: #000000;
+}
+
+.frame68 .frame67 .frame63 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 906px;
+  height: 165px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame63 .frame58 {
+  width: 232px;
+  height: 165px;
+
+  background: #ffffff;
+  /* Cards shadow */
+
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01),
+    0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09),
+    0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame63 .frame58 .frame60 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: relative;
+  width: 185px;
+  height: 129px;
+  left: 23px;
+  top: 18px;
+}
+
+.frame68 .frame67 .frame63 .frame58 .frame60 .frame59s {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 185px;
+  height: 98px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame63 .frame58 .frame60 .frame59s .text {
+  width: 185px;
+  height: 23px;
+
+  /* Title02 Semi bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 120%;
+  /* identical to box height, or 23px */
+
+  text-align: center;
+
+  color: #5c5c5c;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame63 .frame58 .frame60 .frame59s .icon {
+  width: 65px;
+  height: 65px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame63 .frame58 .frame60 .text {
+  width: 79px;
+  height: 23px;
+
+  /* Title02 Bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 120%;
+  /* identical to box height, or 23px */
+
+  text-align: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame63 .frame59 {
+  width: 664px;
+  height: 165px;
+
+  background: #ffffff;
+  /* Cards shadow */
+
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01),
+    0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09),
+    0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame63 .frame59 .x {
+  position: relative;
+  width: 36px;
+  height: 29px;
+  left: 165px;
+  top: 72px;
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  /* identical to box height, or 29px */
+
+  text-align: center;
+  letter-spacing: 0.39em;
+
+  color: #000000;
+}
+
+.frame68 .frame67 .frame63 .frame59 .frame62 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+
+  position: absolute;
+  width: 149px;
+  height: 96px;
+  left: 460px;
+  /* top: 51px; */
+}
+
+.frame68 .frame67 .frame63 .frame59 .frame62 .frame61 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 49px;
+  height: 71px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame63 .frame59 .frame62 .frame61 .vector3 {
+  width: 46px;
+  height: 44px;
+
+  /* border: 3px solid #5C5C5C; */
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame63 .frame59 .frame62 .frame61 .text {
+  width: 49px;
+  height: 19px;
+
+  /* Title03 Bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  left: 0px;
+  top: 4px;
+  text-align: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame63 .frame59 .frame62 .texts {
+  width: 149px;
+  height: 19px;
+
+  /* Title03 */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  text-align: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .frame67 .frame63 .frame59 .text {
+  position: relative;
+  width: 43px;
+  height: 23px;
+  left: 26px;
+  top: -11px;
+
+  /* Title02 Semi bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 120%;
+  /* identical to box height, or 23px */
+
+  text-align: center;
+
+  color: #5c5c5c;
+}
+
+.frame68 .frame67 .frame66 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 21px;
+
+  width: 907px;
+  height: 187px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+}
+
+.frame68 .frame67 .frame66 .frame59 {
+  width: 443px;
+  height: 187px;
+
+  background: #ffffff;
+  /* Cards shadow */
+
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01),
+    0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09),
+    0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+}
+
+.frame68 .frame67 .frame66 .frame59 .icon {
+  position: absolute;
+  width: 141px;
+  height: 45px;
+  left: 151px;
+  top: 89px;
+
+  background: url(Frame\ 64.jpg);
+}
+
+.frame68 .frame67 .frame66 .frame59 .text {
+  position: absolute;
+  width: 245px;
+  height: 23px;
+  left: 26px;
+  top: 28px;
+
+  /* Title02 Semi bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 120%;
+  /* identical to box height, or 23px */
+
+  text-align: center;
+
+  color: #5c5c5c;
+}
+
+.frame68 .frame67 .frame66 .frame64 {
+  width: 443px;
+  height: 187px;
+  position: absolute;
+
+  background: #ffffff;
+  /* Cards shadow */
+
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01),
+    0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09),
+    0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left: 463px;
+}
+
+.frame68 .frame67 .frame66 .frame64 .icon {
+  position: absolute;
+  width: 219px;
+  height: 34px;
+  left: 112px;
+  top: 94px;
+}
+
+.frame68 .frame67 .frame66 .frame64 .text {
+  position: absolute;
+  width: 191px;
+  height: 23px;
+  left: 26px;
+  top: 28px;
+
+  /* Title02 Semi bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 120%;
+  /* identical to box height, or 23px */
+
+  text-align: center;
+
+  color: #5c5c5c;
+}
+
+.frame68 .priceDetail {
+  width: 366px;
+  height: 576px;
+
+  background: #ffffff;
+  /* Cards shadow */
+
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01),
+    0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09),
+    0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: relative;
+}
+
+.frame68 .priceDetail .frame65 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 276px;
+  height: 48px;
+  left: 39px;
+  top: 470px;
+
+  background: #9747ff;
+  border-radius: 14px;
+}
+
+.frame68 .priceDetail .frame65 .text {
+  width: 103px;
+  height: 28px;
+
+  /* Title01 Bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 120%;
+  /* identical to box height, or 28px */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .total {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 80px;
+
+  position: absolute;
+  width: 281px;
+  height: 34px;
+  left: 34px;
+  top: 396px;
+}
+
+.frame68 .priceDetail .total .text1 {
+  width: 73px;
+  height: 34px;
+
+  /* Heading04 Bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 120%;
+  /* identical to box height, or 34px */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .total .text2 {
+  width: 128px;
+  height: 34px;
+
+  /* Heading04 Bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 120%;
+  /* identical to box height, or 34px */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .line14 {
+  position: absolute;
+  width: 272px;
+  height: 0px;
+  left: 39px;
+  top: 370px;
+
+  border: 1px solid rgba(179, 179, 179, 0.5);
+}
+
+.frame68 .priceDetail .line13 {
+  position: absolute;
+  width: 272px;
+  height: 0px;
+  left: 39px;
+  top: 267px;
+
+  border: 1px solid rgba(179, 179, 179, 0.5);
+}
+
+.frame68 .priceDetail .line12 {
+  position: absolute;
+  width: 272px;
+  height: 0px;
+  left: 39px;
+  top: 144px;
+
+  border: 1px solid rgba(179, 179, 179, 0.5);
+}
+
+.frame68 .priceDetail .frame52 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+
+  position: absolute;
+  width: 277px;
+  height: 53px;
+  left: 38px;
+  top: 293px;
+}
+
+.frame68 .priceDetail .frame52 .text {
+  width: 134px;
+  height: 19px;
+
+  /* Title03 */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  color: #808080;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .frame52 .platform {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 132px;
+
+  width: 277px;
+  height: 19px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .frame52 .platform .text1 {
+  width: 90px;
+  height: 19px;
+
+  /* Title03 */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  color: #808080;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .frame52 .platform .text2 {
+  width: 55px;
+  height: 19px;
+
+  /* Title03 */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  color: #808080;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .duties {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 15px;
+
+  position: absolute;
+  width: 276px;
+  height: 71px;
+  left: 38px;
+  top: 170px;
+}
+
+.frame68 .priceDetail .duties .dutoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 63px;
+
+  width: 276px;
+  height: 19px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .duties .dutoes .text1 {
+  width: 119px;
+  height: 19px;
+
+  /* Title03 */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  color: #808080;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .duties .dutoes .text2 {
+  width: 94px;
+  height: 19px;
+
+  /* Title03 */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  color: #808080;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .duties .insurance {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+
+  width: 276px;
+  height: 37px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .duties .insurance .frame51 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 147px;
+
+  width: 276px;
+  height: 19px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .duties .insurance .frame51 .text1 {
+  width: 70px;
+  height: 19px;
+
+  /* Title03 */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  color: #808080;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .duties .insurance .frame51 .text2 {
+  width: 59px;
+  height: 19px;
+
+  /* Title03 */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  color: #808080;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .duties .insurance .text {
+  width: 141px;
+  height: 16px;
+
+  /* Body */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  /* identical to box height, or 16px */
+
+  color: #808080;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .seller {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 107px;
+
+  position: absolute;
+  width: 281px;
+  height: 19px;
+  left: 34px;
+  top: 105px;
+}
+
+.frame68 .priceDetail .seller .text1 {
+  width: 99px;
+  height: 19px;
+
+  /* Title03 */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  color: #808080;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .seller .text2 {
+  width: 75px;
+  height: 19px;
+
+  /* Title03 */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+
+  color: #808080;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .frame48 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 21px;
+
+  position: absolute;
+  width: 255.82px;
+  height: 28px;
+  left: 34px;
+  top: 40px;
+}
+
+.frame68 .priceDetail .frame48 .text {
+  width: 130px;
+  height: 28px;
+
+  /* Title01 Bold */
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 120%;
+  /* identical to box height, or 28px */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .frame48 .frame47 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9.02891px;
+  gap: 9.03px;
+
+  width: 104.82px;
+  height: 20px;
+
+  background: #e5e6e6;
+  border-radius: 23px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .frame48 .frame47 .icon {
+  width: 11.74px;
+  height: 11.74px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame68 .priceDetail .frame48 .frame47 .text {
+  width: 66px;
+  height: 8px;
+
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.9318px;
+  line-height: 120%;
+  /* identical to box height, or 12px */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
